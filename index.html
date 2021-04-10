@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="This is my portfolio.">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+<title>Steven Simon</title>
+
+<meta name="viewport"  content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
+<audio id="pop" preload="auto">
+        <source src="sounds/smallPop.wav"> </source>
+</audio>
+
+<audio id="click" preload="auto">
+        <source src="sounds/click.wav"> </source>
+</audio>
+
+<noscript>
+    <link rel="stylesheet" href="css/noscript.css" type="text/css" />
+</noscript>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/modals.js"></script>
+
+</head>
+
+<body>
+<!-- Index -->
+<a name="jump-to-top"></a>
+<div id="hero">
+<div id="fade">
+<div class="wrapper feature">
+<header>
+            <h1 class="rawLogo">steven simon</h1>
+            <div class="inside-wrapper">
+              <p>Hello. I am a Front End Web Developer getting people taken care of at <a href="https://www.discounttire.com/" title="Discount Tire" target="_blank">Discount Tire</a>.</p>
+            </div><!--inside wrapper-->
+<nav>
+            <a href="https://www.linkedin.com/in/steven-simon-29833079" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/stevenraysimon" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+
+</nav><!--Closing nav-->
+</header>
+</div><!--wrapper-->
+</div><!--fade -->
+</div><!--Hero -->
+
+<!-- Projects -->
+<div class="row wrapper" id="cultureApp">
+  <div class="text">
+    <h2>Preserving and Strengthening Our Culture</h2>
+    <p>As newly hired employees began working from home during the coronavirus pandemic, <a href="https://www.discounttire.com/" title="Discount Tire" target="_blank">Discount Tire</a> needed a way to share their culture with remote employees. This is a <a href="https://reactjs.org/" title="React" target="_blank">React</a> application that I designed and developed that gives a digital tour of Discount Tire's history, present values, current departments, and future plans.</p><br/><br/>
+    <p><a href="#modal-cultureApp" title="See More" class="row-cta" id="cultureApp-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/psc.jpg" title="Preserving and Strengthening Our Culture" alt="Preserving and Strengthening Our Culture" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="guideCustomer">
+  <div class="text">
+    <h2>Guide That Customer Game</h2>
+    <p>During the coronavirus pandemic, <a href="https://www.discounttire.com/" title="Discount Tire" target="_blank">Discount Tire</a> decided to let customers pull in and out their own vehicles to reduce exposure to the virus. Along with building a course using the <a href="https://www.adaptlearning.org/index.html" title="Adapt eLearning framework" target="_blank">Adapt eLearning framework</a>, I designed and developed a game using <a href="https://molleindustria.github.io/p5.play/" title="p5.play" target="_blank">p5.play</a> to teach tire technicians the proper hand signals for guiding customers in and out of the bays.</p><br/><br/>
+    <p><a href="#modal-guideCustomer" title="See More" class="row-cta" id="guideCustomer-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/guideCustomer.jpg" title="Guide That Customer Game" alt="Guide That Customer Game" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="storyApp">
+  <div class="text">
+    <h2>Sales Career Path</h2>
+    <p>The Sales Career Path is a series of single page applications that I illustrated and developed with <a href="https://vuejs.org/" title="Vue" target="_blank">Vue</a> that teach employees at Discount Tire the steps necessary to move into a management position.</p><br/><br/>
+    <p><a href="#modal-storyApp" title="See More" class="row-cta" id="storyApp-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/storyApp.png" title="Sales Career Path" alt="Sales Career Path" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="covid">
+  <div class="text">
+    <h2>COVID eLearning</h2>
+    <p>During the spring of 2020, <a href="https://www.discounttire.com" title="Discount Tire" target="_blank">Discount Tire</a> needed a way to explain new social distancing procedures due to the coronavirus pandemic. Shown is a single page application calculator made with <a href="https://vuejs.org/" title="Vue" target="_blank">Vue</a> that shows employees which service to provide to customers based on customer behavior. I designed, developed, and illustrated this app.</p><br/><br/>
+    <p><a href="#modal-covid" title="See More" class="row-cta" id="covid-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/covidLearning.jpg" title="COVID eLearning" alt="COVID eLearning" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="bannerTool">
+  <div class="text">
+    <h2>Banner Tool</h2>
+    <p>After spending some of a Saturday making a banner for the Discount Tire intranet to meet a last-minute request, I decided to develop a banner tool so that anyone on our team could make banners without a developer.</p><br/><br/>
+    <p><a href="#modal-bannerTool" title="See More" class="row-cta" id="bannerTool-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/bannerTool.jpg" title="Banner Tool" alt="Banner Tool" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="shoeboxChallenge">
+  <div class="text">
+    <h2>Shoebox Challenge</h2>
+    <p>The <a href="https://www.shoeboxchallenge.com" title="Shoebox Challenge" target="_blank">Shoebox Challenge</a> began in 2011 when <a href="https://www.samaritanspurse.org/" title="Samaritan's Purse" target="_blank">Samaritan’s Purse</a> and <a href="http://www.hfecorp.com/" title="Herschend Family Entertainment" target="_blank">Herschend Family Entertainment</a> partnered with the goal to collect shoeboxes for <a href="https://www.samaritanspurse.org/what-we-do/operation-christmas-child" target="_blank" title="Operation Christmas Child">Operation Christmas Child</a>. This is the new website (2019) that I designed and developed in WordPress.</p><br/><br/>
+    <p><a href="#modal-shoeboxChallenge" title="See More" class="row-cta" id="shoeboxChallenge-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/sc.jpg" title="Shoebox Challenge" alt="Shoebox Challenge" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="lwl">
+  <div class="text">
+    <h2>Leading With Love</h2>
+    <p><a href="https://lwl.herschenduniversity.com" title="Leading With Love" target="_blank">Leading With Love</a> is a WordPress website designed and developed to help employees in corporate companies learn how to lead and manage in a loving way.</p><br/><br/>
+    <p><a href="#modal-lwl" title="See More" class="row-cta" id="lwl-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/lwl.jpg" title="Leading With Love" alt="Leading With Love" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="appyBirthday">
+  <div class="text">
+    <h2>Appy Birthday</h2>
+    <p>One of the projects that I worked on while at <a href="https://www.geico.com/" title="GEICO" target="_blank">GEICO</a> was the branding for the GEICO mobile app's eighth birthday. The branding included a website, a large banner to hang in the office, a poster, and an email to send out to customers.</p><br/><br/>
+    <p><a href="#modal-appyBirthday" title="See More" class="row-cta" id="appyBirthday-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/appyBirthday.jpg" title="Appy Birthday" alt="Appy Birthday" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="wwg">
+  <div class="text">
+    <h2>Wildwood Grove Interactive Tour</h2>
+    <p>This interactive map made with <a href="https://p5js.org" title="p5.js" target="_blank">p5.js</a> leads you on a guided tour of the Dollywood theme park's new Wildwood Grove area.</p><br/><br/>
+    <p><a href="#modal-wwg" title="See Live" class="row-cta" id="wwg-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/wwg.jpg" title="Wildwood Grove" alt="Wildwood Grove" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="shakeasound">
+  <div class="text">
+    <h2>Shake a Sound</h2>
+    <p>Shake a Sound is a mobile web app designed for the Brooklyn Academy of Music's <a href="https://www.bam.org/teknopolis" title="Teknopolis" target="_blank">Teknopolis</a>. The app establishes a connection between devices using web sockets and lets each person play music, in contribution with everyone else, by shaking their phone.</p><br/><br/>
+    <p><a href="#modal-shakeasound" title="See More" class="row-cta" id="shakeasound-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/shakeasound.jpg" title="Shake a Sound" alt="Shake a Sound" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="hippoFestival">
+  <div class="text">
+    <h2>Hippo Festival</h2>
+    <p>The <a href="https://www.adventureaquarium.com/" title="Adventure Aquarium" target="_blank" >Adventure Aquarium</a> hippos have a new revamped home along with a festival to celebrate! Shown is an animated landing page designed and developed for the event.</p><br/><br/>
+    <p><a href="#modal-hippoFestival" title="See More" class="row-cta" id="hippoFestival-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/hippoHaven.jpg" title="Hippo Festival" alt="Hippo Festival" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="sdcf">
+  <div class="text">
+    <h2>Silver Dollar City Foundation</h2>
+    <p>The <a href="http://www.silverdollarcityfoundation.com" title="Silver Dollar City Foundation" target="_blank">Silver Dollar City Foundation</a> is a nonprofit organization dedicated to helping families grow closer together. Shown is the new website (2019) that I designed and developed in WordPress for this organization.</p><br/><br/>
+    <p><a href="#modal-sdcf" title="See More" class="row-cta" id="sdcf-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/sdcf.jpg" title="Silver Dollar City Foundation" alt="Silver Dollar City Foundation" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="geicoIT">
+  <div class="text">
+    <h2>GEICO IT</h2>
+    <p>This is an infographic that I illustrated to show the excitement of being a GEICO IT associate. It is exciting to know that GEICO is reimagining how the future of insurance will work.</p><br/><br/>
+    <p><a href="#modal-geicoIT" title="See More" class="row-cta" id="geicoIT-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/geicoIT.jpg" title="GEICO IT" alt="GEICO IT" />
+  </div>
+</div>
+<hr><!-- Row -->
+<div class="row wrapper" id="nyc">
+  <div class="text">
+    <h2>NYC Museum Prototype</h2>
+    <p>Shown is a New York City monumental museum prototype. My partner, Ellen Il Eun Kim, and I wanted to create a museum installation where museumgoers could walk up, turn a knob to scroll through time, and discover historical facts about famous New York City buildings. The final version of this project became a quiz. This prototype was developed using <a href="https://www.arduino.cc/" title="Arduino" target="_blank" >Arduino</a>.</p><br/><br/>
+    <p><a href="#modal-nyc" title="See More" class="row-cta" id="nyc-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
+  </div>
+  <div>
+    <img src="images/buildings.jpg" title="NYC Museum Prototype" alt="NYC Museum Prototype" />
+  </div>
+</div>
+
+<footer>
+<div class="wrapper footer">
+  	<p>Designed and developed by Steven Simon <span id="date">2019</span></p>
+      <div>
+            	<a href="mailto:stevenraysimon@gmail.com" title="email" target="_top" onClick="playSound('sounds/smallPop.wav');"><i class="fa fa-envelope"></i></a>
+      </div>
+  </div><!--Closing wrapper-->
+</footer><!--Closing footer-->
+
+<!-- Modal -->
+<div id="modal-cultureApp" class="modal" body-scroll-lock-ignore="">
+  <a href="#cultureApp" title="Exit" class="modal-exit" id="cultureApp-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/psc-1.jpg" title="Preserving and Strengthening Our Culture" alt="Preserving and Strengthening Our Culture" />
+    <img src="images/modal/psc-2.jpg" title="Preserving and Strengthening Our Culture" alt="Preserving and Strengthening Our Culture" />
+    <img src="images/modal/psc-3.jpg" title="Preserving and Strengthening Our Culture" alt="Preserving and Strengthening Our Culture" />
+    <img src="images/modal/psc-4.jpg" title="Preserving and Strengthening Our Culture" alt="Preserving and Strengthening Our Culture" />
+    <div class="wrap-iframe">
+      <iframe id="video-cultureApp" src="https://www.youtube.com/embed/TrUcsHV4EhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><!--wrap-iframe-->
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#cultureApp" title="Exit" class="modal-exit-bottom" id="cultureApp-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-guideCustomer" class="modal" body-scroll-lock-ignore="">
+  <a href="#guideCustomer" title="Exit" class="modal-exit" id="guideCustomer-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/guideCustomer-1.jpg" title="Guide That Customer Game" alt="Guide That Customer Game" />
+    <img src="images/modal/guideCustomer-2.jpg" title="Guide That Customer Game" alt="Guide That Customer Game" />
+    <img src="images/modal/guideCustomer-3.jpg" title="Guide That Customer Game" alt="Guide That Customer Game" />
+    <img src="images/modal/guideCustomer-4.jpg" title="Guide That Customer Game" alt="Guide That Customer Game" />
+    <div class="wrap-iframe">
+      <iframe id="video-guideCustomer" src="https://www.youtube.com/embed/cKN4VpkiAxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><!--wrap-iframe-->
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#guideCustomer" title="Exit" class="modal-exit-bottom" id="guideCustomer-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-storyApp" class="modal" body-scroll-lock-ignore="">
+  <a href="#storyApp" title="Exit" class="modal-exit" id="storyApp-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/storyApp-1.png" title="Sales Career Path" alt="Sales Career Path" />
+    <img src="images/modal/storyApp-2.png" title="Sales Career Path" alt="Sales Career Path" />
+    <img src="images/modal/storyApp-4.png" title="Sales Career Path" alt="Sales Career Path" />
+    <img src="images/modal/storyApp-3.png" title="Sales Career Path" alt="Sales Career Path" />
+    <div class="wrap-iframe">
+      <iframe id="video-storyApp" src="https://www.youtube.com/embed/DI-gbVh7AGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><!--wrap-iframe-->
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#storyApp" title="Exit" class="modal-exit-bottom" id="storyApp-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-covid" class="modal" body-scroll-lock-ignore="">
+  <a href="#covid" title="Exit" class="modal-exit" id="covid-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/covidLearning-1.jpg" title="COVID eLearning" alt="COVID eLearning" />
+    <img src="images/modal/covidLearning-2.jpg" title="COVID eLearning" alt="COVID eLearning" />
+    <img src="images/modal/covidLearning-3.jpg" title="COVID eLearning" alt="COVID eLearning" />
+    <img src="images/modal/covidLearning-4.jpg" title="COVID eLearning" alt="COVID eLearning" />
+    <div class="wrap-iframe">
+      <iframe id="video-covid" src="https://www.youtube.com/embed/PFxN0QuaX0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><!--wrap-iframe-->
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#covid" title="Exit" class="modal-exit-bottom" id="covid-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-bannerTool" class="modal" body-scroll-lock-ignore="">
+  <a href="#bannerTool" title="Exit" class="modal-exit" id="bannerTool-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/bannerTool-1.jpg" title="Banner Tool" alt="Banner Tool" />
+    <div class="wrap-iframe">
+      <iframe id="video-bannerTool" src="https://www.youtube.com/embed/nZyoANqVfBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><!--wrap-iframe-->
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#bannerTool" title="Exit" class="modal-exit-bottom" id="bannerTool-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-shoeboxChallenge" class="modal" body-scroll-lock-ignore="">
+  <a href="#shoeboxChallenge" title="Exit" class="modal-exit" id="shoeboxChallenge-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/sc-1.jpg" title="Shoebox Challenge" alt="Shoebox Challenge" />
+    <img src="images/modal/sc-2.jpg" title="Shoebox Challenge" alt="Shoebox Challenge" />
+    <p class="modal-paragraph">Each step's call-to-action (below) programmatically opens and closes based on the date and time.</p>
+    <img class="follow-text" src="images/modal/sc-3.jpg" title="Shoebox Challenge" alt="Shoebox Challenge" />
+    <img src="images/modal/sc-4.jpg" title="Shoebox Challenge" alt="Shoebox Challenge" />
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#shoeboxChallenge" title="Exit" class="modal-exit-bottom"  id="shoeboxChallenge-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-lwl" class="modal" body-scroll-lock-ignore="">
+  <a href="#lwl" title="Exit" class="modal-exit" id="lwl-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/lwl.jpg" title="Leading With Love" alt="Leading With Love" />
+    <img src="images/modal/lwl-two.jpg" title="Leading With Love" alt="Leading With Love" />
+    <img src="images/modal/lwl-three.jpg" title="Leading With Love" alt="Leading With Love" />
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#lwl" title="Exit" class="modal-exit-bottom" id="lwl-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-appyBirthday" class="modal" body-scroll-lock-ignore>
+  <a href="#appyBirthday" title="Exit" class="modal-exit" id="appyBirthday-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/AppyBirthdayWeb.jpg" title="Appy Birthday" alt="Appy Birthday" />
+    <img src="images/modal/AppyBirthdayPrint.jpg" title="Appy Birthday" alt="Appy Birthday" />
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#appyBirthday" title="Exit" class="modal-exit-bottom" id="appyBirthday-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-wwg" class="modal" body-scroll-lock-ignore>
+  <a href="#wwg" title="Exit" class="modal-exit" id="wwg-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+      <img src="images/modal/wwg-frame1.png" title="Explore" alt="Explore" />
+      <img src="images/modal/wwg-frame2.png" title="Great Tree Swing" alt="Great Tree Swing" />
+      <img src="images/modal/wwg-frame3.png" title="Wildwood Tree" alt="Wildwood Tree" />
+      <div class="wrap-iframe">
+        <iframe id="video-wwg" src="https://www.youtube.com/embed/DbuaOaAOBZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+      </div><!--wrap-iframe-->
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#wwg" title="Exit" class="modal-exit-bottom" id="wwg-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-shakeasound" class="modal" body-scroll-lock-ignore>
+  <a href="#shakeasound" title="Exit" class="modal-exit" id="shakeasound-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/all.png" title="Shake a Sound" alt="Shake a Sound" />
+    <div class="wrap-iframe">
+    <iframe id="video-shakeasound" src="https://www.youtube.com/embed/uJx7xF9PFJw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+  </div>
+    <img src="images/modal/shake_play.jpg" title="Shake a Sound" alt="Shake a Sound" />
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#shakeasound" title="Exit" class="modal-exit-bottom" id="shakeasound-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-hippoFestival" class="modal" body-scroll-lock-ignore>
+  <a href="#hippoFestival" title="Exit" class="modal-exit" id="hippoFestival-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/hippos.jpg" title="Hippo Festival" alt="Hippo Festival" />
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#hippoFestival" title="Exit" class="modal-exit-bottom" id="hippoFestival-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-sdcf" class="modal" body-scroll-lock-ignore>
+  <a href="#sdcf" title="Exit" class="modal-exit" id="sdcf-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/sdcf-1.jpg" title="Silver Dollar City Foundation" alt="Silver Dollar City Foundation" />
+    <img src="images/modal/sdcf-2.jpg" title="Silver Dollar City Foundation" alt="Silver Dollar City Foundation" />
+    <img src="images/modal/sdcf-3.jpg" title="Silver Dollar City Foundation" alt="Silver Dollar City Foundation" />
+    <img src="images/modal/sdcf-4.jpg" title="Silver Dollar City Foundation" alt="Silver Dollar City Foundation" />
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#sdcf" title="Exit" class="modal-exit-bottom" id="sdcf-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-geicoIT" class="modal" body-scroll-lock-ignore>
+  <a href="#geicoIT" title="Exit" class="modal-exit" id="geicoIT-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/itPoster.jpg" title="GEICO IT" alt="GEICO IT" />
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#geicoIT" title="Exit" class="modal-exit-bottom" id="geicoIT-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+<!-- Modal -->
+<div id="modal-nyc" class="modal" body-scroll-lock-ignore>
+  <a href="#nyc" title="Exit" class="modal-exit" id="nyc-exit">Close <i class="fa fa-times"></i></a>
+  <div class="wrapper">
+    <img src="images/modal/buildings-1.jpg" title="NYC Museum Prototype" alt="NYC Museum Prototype" />
+    <img src="images/modal/buildings-2.jpg" title="NYC Museum Prototype" alt="NYC Museum Prototype" />
+    <div class="wrap-iframe">
+      <iframe id="video-nyc" src="https://www.youtube.com/embed/iPkW9CFJkN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><!--wrap-iframe-->
+  </div><!--wrapper-->
+  <div class="process">
+    <p>Would you like to learn about my process?</p>
+    <a href="mailto:stevenraysimon@gmail.com" class="process-cta" title="Contact Me">Contact Me</a>
+    <a href="#nyc" title="Exit" class="modal-exit-bottom" id="nyc-exit-bottom">Close</a>
+  </div><!--process-->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90051414-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

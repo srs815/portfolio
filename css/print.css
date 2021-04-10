@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Montserrat-Bold'; /*a name to be used later*/
+    src: url('../fonts/Montserrat-Medium.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular'; /*a name to be used later*/
+    src: url('../fonts/Montserrat-Regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-Light'; /*a name to be used later*/
+    src: url('../fonts/Montserrat-ExtraLight.otf'); /*URL to font*/
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+.noScript{
+    display: none;
+    visibility: hidden;
+}
+
+*{transition:none!important;}
+
+body{
+	margin:0;
+	padding:0;
+	line-height: 1.4em;
+	word-spacing:1px;
+	letter-spacing:0.2px;
+	font-family: 'Montserrat-Light', 'Open Sans', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #777;
+	width: 100%;
+	height: 100%;
+  transition: none !important;
+}
+
+.hiddenTags{
+  display: block;
+  visibility: visible;
+  color: white;
+  -webkit-print-color-adjust: exact;
+  font-size: 0.02em;
+}
+
+.resume_text, .resume_bullets, .resume_dates{
+  color: #777 !important;
+  font-family: 'Montserrat-Light', 'Open Sans', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+a, a[href]{
+  color: #F60 !important;
+}
+
+a[href]:after {
+   content: none !important;
+ }
+
+ #skills_textTwo, #skills_textThree{
+   margin-top: 15px;
+ }
+
+.printInfo{
+  font-family:'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #555;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight:300;
+  text-align:center;
+  padding-top:20px;
+  visibility: visible;
+  display: block;
+}
+
+.rawLogo{
+  text-align: center;
+  font-family: 'Montserrat-Regular', 'Montserrat', 'Montserrat-Light', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.wrap-logo, .logo{
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.resume_bullets {
+  line-height: 1.4em;
+}
+
+#skills_textOne{
+  margin-top: 15px;
+  line-height: 26px;
+}
+
+.resume_dates
+{
+	margin-top: 15px;
+	font-family:'Montserrat-Light', 'Montserrat', 'Montserrat-Regular', 'Open Sans',  Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: .9em;
+	color: #555;
+	width:100%;
+	line-height: 26px;
+	font-style: italic;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resumePadTop {
+    margin-top: 30px;
+}
+
+hr {
+  margin-top: 0.7rem;
+  margin-bottom: 2rem;
+  border-width: 0;
+  border-top: 1px solid #777; }
+
+  h3{
+	font-family: 'Montserrat-Light', 'Montserrat', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #555;
+	text-transform: lowercase;
+	font-size: 1.3em !important;
+	font-weight:100 !important;
+	-webkit-font-smoothing: antialiased; /*smooth the text*/
+	text-align:left;
+     letter-spacing: 0px !important;
+      padding-top: 10px;
+}
+
+h2{
+	font-family: 'Montserrat-Light', 'Montserrat-Regular', 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222;
+	text-transform: lowercase;
+	font-size: 0.9em !important;
+	font-weight:100 !important;
+	-webkit-font-smoothing: antialiased; /*smooth the text*/
+	text-align:center;
+     letter-spacing: 0px !important;
+    margin-top: -3px;
+}
+h1{
+	font-family: 'Montserrat-Regular', 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #F60;
+	text-transform: lowercase;
+	font-size: 1.4em !important;
+	-webkit-font-smoothing: antialiased; /*smooth the text*/
+	text-align:center;
+         letter-spacing: 0px !important;
+}
+
+.logo{
+        padding-top: 25px;
+    }
+
+.project img{
+	width: 150px;
+	height: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+	max-width: 500px;
+	padding-top: 15px;
+  height: auto;
+}
+
+@page {
+margin: 0.5cm;
+}
+
+.breakPage{
+  page-break-before: always;
+  padding-top: 20px;
+}
+
+.nav{
+	display: none;
+}
+
+.sliding_images{
+	padding-bottom: 20px;
+    display: block;
+    position: relative;
+    height: 430px;
+}
+
+.pager_style {
+	display: none;
+    visibility: hidden;
+}
+
+.wrap-next-previous{
+    display: none;
+    visibility: hidden;
+}
+
+iframe{
+    display: none;
+    visibility: hidden;
+}
+
+.left_column{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#contact_buttons{
+	display: none;
+}
+
+.to-top {
+	display: none;
+    visibility: hidden;
+}
+
+#coverA{
+  max-width: 200px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+a:link, a:visited {
+  background: transparent; color:#777; text-decoration:none;
+}
+a:link[href^="http://"]:after, a:visited[href^="http://"]:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {
+  color:#F60;
+}
