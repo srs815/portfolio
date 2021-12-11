@@ -278,13 +278,13 @@ hr{
 }
   
 .process-cta:hover{
-    filter: brightness(30%);
-		transition: 0.4s;
-		color: white;
+  backdrop-filter: brightness(30%);
+	transition: 0.4s;
+	color: white;
 }
 
 .process-cta:active{
-	filter: brightness(10%);
+	backdrop-filter: brightness(10%);
 	transition: 0s;
 	color: white;
 }
