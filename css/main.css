@@ -102,16 +102,12 @@ nav a{
 }
 
 nav a:hover{
-  /* color: #E0C887; */
-  /* color: #999; */
-  color: #f3f2ef;
+  filter: brightness(30%);
 	transition: 0.4s;
 }
 
 nav a:active{
-  /* color: #A89E6D; */
-  /* color: #4D4D4D; */
-  color: #fff;
+  filter: brightness(100%);
 	transition: 0s;
 }
 
@@ -137,12 +133,12 @@ nav a:active{
 }
 
 .inside-wrapper a:hover{
-     color: #f3f2ef;
+    filter: brightness(30%);
 		 transition: 0.4s;
 }
 
 .inside-wrapper a:active{
-  color: #fff;
+  filter: brightness(100%);
 	transition: 0s;
 }
 
@@ -158,12 +154,12 @@ nav a:active{
 }
 
 #main-cta:hover{
-		background-color:#b74a00;
+    filter: brightness(30%);
 		transition: 0.4s;
 }
 
 #main-cta:active{
-	background-color:  #7c3403;
+	filter: brightness(10%);
 	transition: 0s;
 }
 
@@ -282,13 +278,13 @@ hr{
 }
   
 .process-cta:hover{
-		background-color: #b74a00;;
+    filter: brightness(30%);
 		transition: 0.4s;
 		color: white;
 }
 
 .process-cta:active{
-	background-color:  #7c3403;
+	filter: brightness(10%);
 	transition: 0s;
 	color: white;
 }
@@ -302,7 +298,7 @@ hr{
 }
 
 .row a:hover{
-  color: #00356A;
+  filter: brightness(30%);
 }
 
 .row img{
@@ -340,11 +336,11 @@ footer a{
 }
 
 footer a:hover{
-  color: #6B6441;
+  filter: brightness(30%);
 }
 
 footer a:active{
-  color: #47432C;
+  filter: brightness(10%);
 }
 
 footer div{
@@ -412,7 +408,7 @@ footer div{
 }
 
 .modal-exit:hover, .modal-exit-bottom:hover{
-	color: #00356A;
+	filter: brightness(30%);
 	transition: 0.4s;
 }
 
