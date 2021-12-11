@@ -102,12 +102,12 @@ nav a{
 }
 
 nav a:hover{
-  filter: brightness(30%);
+  filter: brightness(70%);
 	transition: 0.4s;
 }
 
 nav a:active{
-  filter: brightness(100%);
+  filter: brightness(90%);
 	transition: 0s;
 }
 
@@ -134,7 +134,7 @@ nav a:active{
 
 .inside-wrapper a:hover{
     filter: brightness(30%);
-		 transition: 0.4s;
+		transition: 0.4s;
 }
 
 .inside-wrapper a:active{
@@ -325,14 +325,14 @@ footer{
 	background-color: #f3f2ef;
 	font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
-	color: #999;
+	color: #4D4D4D;
 	padding: 30px 50px;
 }
 
 footer a{
 	font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
-	color: #999;
+	color: #4D4D4D;
 }
 
 footer a:hover{
