@@ -72,7 +72,6 @@ a{
 }
 
 .zoom{
-  /*background-position: bottom center !important;*/
   transform: scale(1.02);
 }
 
@@ -81,15 +80,11 @@ header{
   padding: 60px 50px;
   z-index: 10;
   position: relative;
-  /* background: linear-gradient(#f60, rgba(0,0,0,0)); */
 }
 
 #fade{
-  /* background: linear-gradient(#f60, rgba(0,0,0,0)); */
   height: 100%;
-  /* background: linear-gradient(170deg, black, rgba(0, 0, 0, 0.5)); */
-	background: linear-gradient(175deg,#FF6600, #FFAB4A);
-	/*f60, f90*/
+	background: linear-gradient(175deg,#CE4703, #FF6600);
 }
 
 nav{
@@ -102,8 +97,6 @@ nav{
 }
 
 nav a{
-  /* color: #f8e9a1; */
-  /* color: white; */
   color: #fda;
   padding-left: 20px;
 }
@@ -140,33 +133,26 @@ nav a:active{
 }
 
 .inside-wrapper a{
-   /* color: #7EFF77; */
-   /* color: #f8e9a1; */
    color: #fda;
-   /* color: #49C5FD; */
 }
 
 .inside-wrapper a:hover{
-     /* color: #004A6C; */
-     /* color:#E0C887; */
      color: #f3f2ef;
 		 transition: 0.4s;
 }
 
 .inside-wrapper a:active{
-  /* color: #00364E; */
-  /* color: #A89E6D; */
   color: #fff;
 	transition: 0s;
 }
 
 #main-cta{
 	color: white;
-        padding: 16px 26px;
-        transition: 0.4s;
+  padding: 16px 26px;
+  transition: 0.4s;
 	border-radius: 40px;
 	font-size: 0.8em;
-	background-color: #f60;
+	background-color: #CE4703;
 	text-align: center;
 	font-weight: 600;
 }
@@ -286,7 +272,7 @@ hr{
   transition: 0.4s;
 	border-radius: 40px;
 	font-size: 1em;
-	background-color: #f60;
+	background-color: #CE4703;
 	text-align: center;
 	display: block;
 	max-width: 120px;
@@ -308,7 +294,7 @@ hr{
 }
 
 .row a{
-  color: #0799DB;
+  color: #0057AD;
 }
 
 .row-cta, .row a .fa, .modal-exit, .modal-exit-bottom{
@@ -316,7 +302,7 @@ hr{
 }
 
 .row a:hover{
-  color: #004A6C;
+  color: #00356A;
 }
 
 .row img{
@@ -409,7 +395,7 @@ footer div{
 	position: absolute;
 	right: 50px;
 	top:30px;
-	color: #0799DB;
+	color: #0057AD;
 	font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 1em;
   line-height: 1.7em;
@@ -418,7 +404,7 @@ footer div{
 .modal-exit-bottom{
   position: relative;
   text-align: center;
-  color: #0799DB;
+  color: #0057AD;
 	font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 1em;
   line-height: 1.7em;
@@ -426,7 +412,7 @@ footer div{
 }
 
 .modal-exit:hover, .modal-exit-bottom:hover{
-	color: #004A6C;
+	color: #00356A;
 	transition: 0.4s;
 }
 
