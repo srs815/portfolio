@@ -10,6 +10,7 @@ $(document).ready(function(){
       myClick(items[i]);
    }
 
+   //Find all the rows and get their ids
    function storeid(){
       var className = document.getElementsByClassName('row');
       var classnameCount = className.length;
