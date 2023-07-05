@@ -76,4 +76,37 @@ $(document).ready(function(){
 
     }//myClick
 
+
+    // Function to check if an element is in the viewport
+    function isElementInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+      var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+      var boundary = 100; // Adjust the boundary value as per your requirements
+    
+      return (
+        rect.top >= -boundary &&
+        rect.left >= -boundary &&
+        rect.bottom <= viewportHeight + boundary &&
+        rect.right <= viewportWidth + boundary
+      );
+    }
+
+   // Function to lazy load the images
+   function lazyLoadImages() {
+      $(".lazy").each(function() {
+      if (isElementInViewport(this)) {
+         // Replace the data-src attribute with the src attribute to trigger the image load
+         $(this).attr("src", $(this).data("src"));
+         $(this).removeClass("lazy");
+      }
+      });
+   }
+
+   // Attach scroll event listener to trigger lazy loading on scroll
+   $(window).on("scroll", lazyLoadImages);
+
+   // Trigger initial lazy loading on page load
+   lazyLoadImages();
+
 });//doc ready
