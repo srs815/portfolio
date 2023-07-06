@@ -5,6 +5,11 @@ $(document).ready(function(){
 
    var items = new Array();
    storeid();
+   console.log(items);
+
+   //Set images
+   setImgs();
+   
 
    for(var i = 0; i < items.length; i++){
       myClick(items[i]);
@@ -17,6 +22,19 @@ $(document).ready(function(){
       for(var j = 0; j < classnameCount; j++){
           items.push(className[j].id);
       }
+   }
+
+   //Find all the lazy images and set the data-src
+   function setImgs(){
+      var lazyName = document.getElementsByClassName('lazy');
+      var lazyCount = lazyName.length;
+      for (var k = 0; k < lazyCount; k++) {
+         // Replace the src with data-src for lazy loading
+         var element = $(lazyName[k]);
+         var src = element.attr('src');
+         element.attr('data-src', src);
+         element.removeAttr('src');
+       }
    }
 
     //Sound
