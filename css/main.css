@@ -98,6 +98,9 @@ nav{
 
 nav a{
   color: #fda;
+}
+
+nav a:not(:first-child){
   padding-left: 20px;
 }
 
