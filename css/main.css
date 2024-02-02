@@ -71,6 +71,11 @@ a {
   text-align: center;
 }
 
+.rawLogo,
+.rawLogo a {
+  color: white !important;
+}
+
 /************* Hero *********************/
 
 #hero {
