@@ -100,31 +100,84 @@ header {
   background: linear-gradient(175deg, #CE4703, #FF6600);
 }
 
+/* Icon Navigation */
 nav {
-  display: inline-flex;
-  /* font-size: 2.4vw; */
-  font-size: 2em;
-  align-self: center;
+  display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  /* Adjusted width for each link */
+  height: 70px;
+  /* Adjusted height for each link */
+  margin: 0 5px;
+  /* Adjusted margin between links */
+  position: relative;
+  border-radius: 50%;
+  /* Ensures links are circular */
+  overflow: hidden;
+  /* Hides overflow if icons are larger than the link */
+  transition: background-color 0.3s ease;
   color: #fda;
 }
 
-nav a:not(:first-child) {
-  padding-left: 20px;
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 nav a:hover {
-  filter: brightness(90%);
-  transition: 0.4s;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Semi-transparent background on hover */
 }
 
 nav a:active {
-  filter: brightness(100%);
-  transition: 0s;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Semi-transparent background on hover */
+}
+
+nav a i {
+  font-size: 3em;
+  /* Increased icon size */
+  color: var(--links);
+  /* Adjust icon color */
+}
+
+nav .fa {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  nav a {
+    width: 50px;
+    /* Adjusted width for each link */
+    height: 50px;
+    /* Adjusted height for each link */
+  }
+
+  nav .fa {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  nav a {
+    width: 40px;
+    /* Adjusted width for each link */
+    height: 40px;
+    /* Adjusted height for each link */
+  }
+
+  nav .fa {
+    font-size: 0.8rem;
+  }
 }
 
 .inside-wrapper {
