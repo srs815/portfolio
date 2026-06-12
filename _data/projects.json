@@ -2,7 +2,7 @@
   {
     "id": "agenticAI",
     "title": "AI Agents",
-    "description": "A suite of conversational AI agents built for real tasks. Christi connects to Gmail to search emails and draft replies. Juliet is a file scavenger that finds documents and assets across your system — both powered by large language models and designed to feel like talking to a capable assistant rather than using a search tool.",
+    "description": "After auditing the tasks that consumed the most employee time, I built conversational AI agents with distinct personas for real work. Christi searches Gmail and drafts replies, while Juliet finds documents and assets across your systems.",
     "thumbnail": { "src": "images/agents.jpeg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/agents-1.jpeg", "loading": "eager", "alt": "AI Agents" },
