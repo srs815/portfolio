@@ -176,7 +176,7 @@
     "thumbnail": { "src": "images/shakeasound.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/sas-1.jpg", "loading": "eager", "alt": "Shake a Sound" },
-      { "src": "images/modal/sas-2.jpg", "loading": "lazy", "alt": "Shake a Sound" }
+      { "src": "images/modal/sas-2.jpeg", "loading": "lazy", "alt": "Shake a Sound" }
     ],
     "videoId": "uJx7xF9PFJw?rel=0"
   },
