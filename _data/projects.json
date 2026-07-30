@@ -2,7 +2,7 @@
   {
     "id": "agenticAI",
     "title": "AI Agents",
-    "question": "Will AI Become Your Next Coworker?",
+    "question": "Can Conversation Change Work?",
     "description": "After auditing time-consuming employee tasks, I explored whether conversational AI agents with distinct personalities could improve productivity while remaining trustworthy and approachable. I designed Christi and Danielle, AI assistants with access to relevant files, accounts, and information that search for answers and draft responses.",
     "thumbnail": { "src": "images/agents.jpeg", "loading": "eager" },
     "modalImages": [
