@@ -335,6 +335,14 @@ hr {
   line-height: 1.7em;
 }
 
+.row h4 {
+  font-family: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #4D4D4D;
+  font-size: 90%;
+  margin-top: 5px;
+}
+
 .row p {
   font-family: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -342,7 +350,7 @@ hr {
   /* font-size: 2vw; */
   font-size: 1.1em;
   line-height: 1.7em;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .process {

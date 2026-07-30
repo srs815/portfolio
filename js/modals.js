@@ -37,6 +37,9 @@ $(document).ready(function () {
       stopVideo(id);
     });
     $('body').removeClass('my-body-noscroll-class');
+    // Safety net: no matter how we got here, once no modal should be
+    // open the URL should always read the base page, not a stale hash.
+    window.history.replaceState({}, '', '/portfolio/');
   });
 
   // ----------------------------
@@ -69,7 +72,10 @@ $(document).ready(function () {
     $('body').removeClass('my-body-noscroll-class');
     stopVideo(id);
     if (pop) pop.play();
-    window.history.go(-1);
+    // Directly normalize the URL instead of history.go(-1). go(-1) is
+    // async and fires its popstate later, which raced against opening
+    // the next modal and left stale #modal-X entries in the stack.
+    window.history.replaceState({}, '', '/portfolio/');
     setTimeout(function () {
       $(document).scrollTop(scrollPositions[id] || 0);
     }, 50);

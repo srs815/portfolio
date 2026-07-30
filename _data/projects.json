@@ -2,7 +2,8 @@
   {
     "id": "agenticAI",
     "title": "AI Agents",
-    "description": "After auditing the tasks that consumed the most employee time, I built conversational AI agents with distinct personas for real work. Christi searches Gmail and drafts replies, while Juliet finds documents and assets across your systems.",
+    "question": "Will AI Become Your Next Coworker?",
+    "description": "After auditing time-consuming employee tasks, I explored whether conversational AI agents with distinct personalities could improve productivity while remaining trustworthy and approachable. I designed Christi and Danielle, AI assistants with access to relevant files, accounts, and information that search for answers and draft responses.",
     "thumbnail": { "src": "images/agents.jpeg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/agents-1.jpeg", "loading": "eager", "alt": "AI Agents" },
@@ -15,7 +16,8 @@
   {
     "id": "deElf",
     "title": "DeElf Tool",
-    "description": "DeElf is a Node.js application that automates the conversion of ELF courses into Bootstrap-based <a href=\"https://www.d2l.com/brightspace/\" title=\"Brightspace\" target=\"_blank\">Brightspace</a> courses. By crawling and transforming course content, it reduces the conversion process from 16 hours to 24 minutes per course.",
+    "question": "Can Design Work Be Automated?",
+    "description": "Course conversion was slow and manual. I built a Node.js tool using regular expressions and web scraping to automate legacy content conversion, reducing the process from 16 hours to 24 minutes per course.",
     "thumbnail": { "src": "images/deelf.jpeg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/deelf-1.jpeg", "loading": "eager", "alt": "DeElf Tool" }
@@ -25,7 +27,8 @@
   {
     "id": "aiVideo",
     "title": "AI Video Generator",
-    "description": "AI Video Generator is a Python Flask app that lets anyone create online course trailers without traditional production experience. It uses <a href=\"https://elevenlabs.io/api\" title=\"ElevenLabs\" target=\"_blank\">ElevenLabs API</a> for narration, AI-generated visuals from SORA, and background music to streamline video creation.",
+    "question": "Can Anyone Make Course Trailers?",
+    "description": "Creating course trailers traditionally requires scripting, editing, voice talent, and design expertise. I explored whether AI could enable instructional designers to create compelling trailers with minimal production experience.",
     "thumbnail": { "src": "images/videoTool.jpeg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/videoTool-1.jpeg", "loading": "eager", "alt": "AI Video Generator" }
@@ -35,7 +38,8 @@
   {
     "id": "ag",
     "title": "Wiley Agnostic Lander",
-    "description": "What makes a web form user-friendly? Clear visibility, conciseness, credibility, and incentives are key factors. After conducting user research on web forms, I designed and developed an agnostic landing page and web form with the goal of boosting conversion rate.",
+    "question": "What Makes Forms Easy to Complete?",
+    "description": "I explored how form structures affect user experience, testing wizard-style flows and Mad Lib interactions before designing a streamlined single-column enrollment form.",
     "thumbnail": { "src": "images/ag.jpg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/ag-1.jpg", "loading": "eager", "alt": "Agnostic Lander" },
@@ -45,7 +49,8 @@
   {
     "id": "charts",
     "title": "Chart.js Gutenberg Block",
-    "description": "I noticed that the graphs on Wiley's <a href=\"https://wordpress.org/\" target=\"_blank\" title=\"WordPress\">WordPress</a> websites were not interactive, so I took it upon myself to develop a <a href=\"https://wordpress.org/support/article/blocks/\" title=\"Gutenberg Block\" target=\"_blank\">Gutenberg Block</a> that utilizes the <a href=\"https://www.chartjs.org/\" target=\"_blank\" title=\"chart.js\">chart.js</a> library, allowing for the creation of interactive graphs.",
+    "question": "Can Interactive Charts Encourage Exploration?",
+    "description": "Static charts communicate information but rarely invite exploration. I designed an interactive Gutenberg Block to explore whether animation and user interaction could make educational content more engaging and informative.",
     "thumbnail": { "src": "images/charts.jpg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/charts-1.jpg", "loading": "eager", "alt": "Chart.js Blocks" }
@@ -55,7 +60,8 @@
   {
     "id": "swd",
     "title": "Social Work Degrees Redesign",
-    "description": "At <a href=\"https://www.wiley.com/\" title=\"Wiley\" target=\"_blank\">Wiley</a>, I enhance the user experience of degree program websites. For example, I rebranded <a href=\"https://www.socialworkdegrees.org/\" title=\"Social Work Degrees\" target=\"_blank\">socialworkdegrees.org</a> to improve conversion, engagement, and SEO. This rebrand included a new logo, updated web design, additional features, and custom <a href=\"https://wordpress.org/support/article/blocks/\" title=\"Gutenberg Blocks\" target=\"_blank\">Gutenberg Blocks</a>.",
+    "question": "Can UX Improve Educational Decisions?",
+    "description": "Choosing an academic program is complex. I redesigned the Social Work Degrees website with custom Gutenberg blocks, clearer information architecture, improved branding, and a user-centered experience that increased engagement.",
     "thumbnail": { "src": "images/swd.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/swd-1.jpg", "loading": "eager", "alt": "Social Work Degrees" },
@@ -65,20 +71,10 @@
     "videoId": "DfTtSannXrs"
   },
   {
-    "id": "wileyEngage",
-    "title": "Wiley Engage",
-    "description": "Wiley Engage is an internal Learning Management System at <a href=\"https://www.wiley.com/\" title=\"Wiley\" target=\"_blank\">Wiley</a>. I designed and developed a custom <a href=\"https://wordpress.org/\" target=\"_blank\" title=\"WordPress\">WordPress</a> theme to support the platform, including search functionality and three custom <a href=\"https://wordpress.org/support/article/blocks/\" title=\"Gutenberg Blocks\" target=\"_blank\">Gutenberg Blocks</a> built with <a href=\"https://reactjs.org/\" title=\"React\" target=\"_blank\">React</a>.",
-    "thumbnail": { "src": "images/engage.jpg", "loading": "lazy" },
-    "modalImages": [
-      { "src": "images/modal/engage-1.jpg", "loading": "eager", "alt": "Wiley Engage" },
-      { "src": "images/modal/engage-2.jpg", "loading": "lazy", "alt": "Wiley Engage" }
-    ],
-    "videoId": "O3H8-WiuRBE"
-  },
-  {
     "id": "cultureApp",
     "title": "Preserving and Strengthening Our Culture",
-    "description": "As employees began working from home during the COVID-19 pandemic, <a href=\"https://www.discounttire.com/\" title=\"Discount Tire\" target=\"_blank\">Discount Tire</a> needed a way to share its culture with newly hired remote employees. I created a <a href=\"https://reactjs.org/\" title=\"React\" target=\"_blank\">React</a> app for Discount Tire to give new remote employees a virtual tour of the company's history, values, departments, and plans.",
+    "question": "How Do You Preserve Culture Remotely?",
+    "description": "As remote work became the norm during COVID-19, I explored whether an interactive React experience could communicate company values, history, and culture more effectively than traditional onboarding documents.",
     "thumbnail": { "src": "images/psc.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/psc-1.jpg", "loading": "eager", "alt": "Preserving and Strengthening Our Culture" },
@@ -91,7 +87,8 @@
   {
     "id": "guideCustomer",
     "title": "Guide That Customer Game",
-    "description": "During the COVID-19 pandemic, <a href=\"https://www.discounttire.com/\" title=\"Discount Tire\" target=\"_blank\">Discount Tire</a> let customers drive their own vehicles to reduce exposure to the virus. I created a game using <a href=\"https://molleindustria.github.io/p5.play/\" title=\"p5.play\" target=\"_blank\">p5.play</a> within the <a href=\"https://www.adaptlearning.org/index.html\" title=\"Adapt eLearning framework\" target=\"_blank\">Adapt eLearning framework</a> to teach proper hand signals for guiding customers in and out of the bays.",
+    "question": "Can Games Improve Safety Training?",
+    "description": "Safety training is often passive and forgettable. I designed an interactive game to explore whether gameplay, immediate feedback, and repetition could improve learning and confidence during customer interactions.",
     "thumbnail": { "src": "images/guideCustomer.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/guideCustomer-1.jpg", "loading": "eager", "alt": "Guide That Customer Game" },
@@ -104,7 +101,8 @@
   {
     "id": "storyApp",
     "title": "Sales Career Path",
-    "description": "The Sales Career Path is a series of single page applications that I illustrated and developed with <a href=\"https://vuejs.org/\" title=\"Vue\" target=\"_blank\">Vue</a> that teach employees at <a href=\"https://www.discounttire.com/\" title=\"Discount Tire\" target=\"_blank\">Discount Tire</a> the steps necessary to move into a management position.",
+    "question": "Can Design Shape Career Growth?",
+    "description": "Career growth often feels abstract. I designed a series of interactive Vue applications to explore whether visualizing career progression could help employees understand advancement opportunities and stay engaged.",
     "thumbnail": { "src": "images/storyApp.png", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/storyApp-1.png", "loading": "eager", "alt": "Sales Career Path" },
@@ -117,7 +115,8 @@
   {
     "id": "bannerTool",
     "title": "Banner Tool",
-    "description": "Because <a href=\"https://www.discounttire.com/\" title=\"Discount Tire\" target=\"_blank\">Discount Tire</a> often needs banners for their intranet, I decided to develop a banner tool so that anyone on our team could make banners without a developer.",
+    "question": "Can Design Be Self-Service?",
+    "description": "Marketing teams often depend on designers for simple graphic updates. I designed a web tool that made creating consistent, branded banners fast and accessible to anyone.",
     "thumbnail": { "src": "images/bannerTool.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/bannerTool-1.jpg", "loading": "eager", "alt": "Banner Tool" }
@@ -127,7 +126,8 @@
   {
     "id": "shoeboxChallenge",
     "title": "Shoebox Challenge",
-    "description": "The <a href=\"https://www.shoeboxchallenge.com\" title=\"Shoebox Challenge\" target=\"_blank\">Shoebox Challenge</a> began in 2011 when <a href=\"https://www.samaritanspurse.org/\" title=\"Samaritan's Purse\" target=\"_blank\">Samaritan's Purse</a> and <a href=\"http://www.hfecorp.com/\" title=\"Herschend Family Entertainment\" target=\"_blank\">Herschend Family Entertainment</a> partnered with the goal to collect shoeboxes for <a href=\"https://www.samaritanspurse.org/what-we-do/operation-christmas-child\" target=\"_blank\" title=\"Operation Christmas Child\">Operation Christmas Child</a>. This is the new website (2019) that I designed and developed in <a href=\"https://wordpress.org/\" target=\"_blank\" title=\"WordPress\">WordPress</a>.",
+    "question": "Can Design Bring Users Back?",
+    "description": "Annual campaigns require users to return at different stages. I designed and developed a time-based WordPress experience that guided visitors from registration to shoebox reporting and prize redemption through dynamic content, automated states, and seasonal storytelling.",
     "thumbnail": { "src": "images/sc.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/sc-1.jpg", "loading": "eager", "alt": "Shoebox Challenge" },
@@ -139,7 +139,8 @@
   {
     "id": "lwl",
     "title": "Leading With Love",
-    "description": "<a href=\"https://lwl.herschenduniversity.com\" title=\"Leading With Love\" target=\"_blank\">Leading With Love</a> is a <a href=\"https://wordpress.org/\" target=\"_blank\" title=\"WordPress\">WordPress</a> website designed and developed to help employees at <a href=\"https://www.hfecorp.com/\" title=\"Herschend Family Entertainment\" target=\"_blank\">Herschend Family Entertainment</a> learn how to lead and manage in a loving way.",
+    "question": "Can Digital Experiences Teach Leadership?",
+    "description": "Leadership development is often delivered through static training materials. I designed a WordPress resource hub that made leadership content more engaging, accessible, and easier for employees to explore.",
     "thumbnail": { "src": "images/lwl.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/lwl-1.jpg", "loading": "eager", "alt": "Leading With Love" },
@@ -150,7 +151,8 @@
   {
     "id": "wwg",
     "title": "Wildwood Grove Interactive Tour",
-    "description": "This interactive map made with <a href=\"https://p5js.org\" title=\"p5.js\" target=\"_blank\">p5.js</a> leads you on a guided tour of the <a href=\"https://www.dollywood.com/\" title=\"Dollywood\" target=\"_blank\">Dollywood</a> theme park's new Wildwood Grove area.",
+    "question": "Can Maps Inspire Discovery?",
+    "description": "Maps usually help people navigate, but they can also create anticipation and discovery. I designed an interactive experience for Dollywood to explore how animation and guided storytelling could enrich a theme park visit before guests arrived.",
     "thumbnail": { "src": "images/wwg.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/wwg-1.png", "loading": "eager", "alt": "Explore" },
@@ -160,19 +162,10 @@
     "videoId": "DbuaOaAOBZY"
   },
   {
-    "id": "appyBirthday",
-    "title": "Appy Birthday",
-    "description": "One of the projects that I worked on while at <a href=\"https://www.geico.com/\" title=\"GEICO\" target=\"_blank\">GEICO</a> was the branding for the <a href=\"https://www.geico.com/\" title=\"GEICO\" target=\"_blank\">GEICO</a> mobile app's eighth birthday. The branding included a website, a large banner to hang in the office, a poster, and an email to send out to customers.",
-    "thumbnail": { "src": "images/appyBirthday.jpg", "loading": "lazy" },
-    "modalImages": [
-      { "src": "images/modal/appy-1.jpg", "loading": "eager", "alt": "Appy Birthday" },
-      { "src": "images/modal/appy-2.jpg", "loading": "lazy", "alt": "Appy Birthday" }
-    ]
-  },
-  {
     "id": "shakeasound",
     "title": "Shake a Sound",
-    "description": "Shake a Sound is a mobile web app designed for the Brooklyn Academy of Music's <a href=\"https://www.bam.org/teknopolis\" title=\"Teknopolis\" target=\"_blank\">Teknopolis</a>. The app establishes a connection between devices using web sockets and lets each person play music, in contribution with everyone else, by shaking their phone.",
+    "question": "Can Phones Become Instruments?",
+    "description": "What happens when multiple phones become a collaborative instrument? I explored how motion, web sockets, and collective interaction could transform individual devices into a playful shared musical experience.",
     "thumbnail": { "src": "images/shakeasound.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/sas-1.jpg", "loading": "eager", "alt": "Shake a Sound" },
@@ -183,7 +176,8 @@
   {
     "id": "browsebetter",
     "title": "BrowseBetter",
-    "description": "BrowseBetter is a prototype content management system that allows websites to personalize experiences based on user preferences. I designed and developed a platform exploring the future of adaptive web interfaces.",
+    "question": "Should Websites Adapt to Users?",
+    "description": "Most websites present the same experience to every visitor. I explored whether adaptive interfaces could personalize content while remaining transparent, predictable, and user-controlled.",
     "thumbnail": { "src": "images/bb.jpeg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/bb-1.jpg", "loading": "eager", "alt": "BrwoseBetter" },
@@ -195,9 +189,22 @@
     "videoId": "2eeaA7v_q28?si=wmcAbfCVQk0mWzKs"
   },
   {
+    "id": "parks",
+    "title": "Parks of NYC",
+    "question": "Can Cities Become Living Museums?",
+    "description": "Cities are filled with monuments and landmarks with untold stories. Inspired by a museum design course at NYU ITP, I explored whether a location-aware mobile app could turn a walk through New York City into a self-guided tour by revealing nearby monuments and their history.",
+    "thumbnail": { "src": "images/parks.jpeg", "loading": "lazy" },
+    "modalImages": [
+      { "src": "images/modal/parks-1.jpeg", "loading": "eager", "alt": "Parks of NYC" },
+      { "src": "images/modal/parks-2.jpeg", "loading": "lazy", "alt": "Parks of NYC" }
+    ],
+    "videoId": "IYwtGlUxhHY"
+  },
+  {
     "id": "kodi",
     "title": "Kodi Learns to Cook",
-    "description": "Kodi Learns to Cook is an interactive storybook for children made with <a href=\"https://p5js.org\" title=\"p5.js\" target=\"_blank\">p5.js</a>. This book uses games, animation, and music to introduce cooking in a fun way.",
+    "question": "Can Interactive Stories Teach Life Skills?",
+    "description": "Children learn best through exploration and play. I designed an interactive storybook combining games, animation, and music to explore how storytelling could build confidence in cooking and everyday skills.",
     "thumbnail": { "src": "images/kodi.jpg", "loading": "lazy" },
     "modalImages": [
       { "src": "images/modal/kodi-1.jpg", "loading": "eager", "alt": "Kodi Learns to Cook" },

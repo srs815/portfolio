@@ -1,6 +1,7 @@
 <div class="row wrapper" id="{{ project.id }}">
   <div class="text">
-    <h2>{{ project.title }}</h2>
+    <h2>{{ project.question }}</h2>
+    <h4>{{ project.title }}</h4>
     <p>{{ project.description | safe }}</p>
     <p><a href="#modal-{{ project.id }}" title="See More" class="row-cta" id="{{ project.id }}-cta"><span>See More</span> <i class="fa fa-angle-right"></i></a></p>
   </div>
