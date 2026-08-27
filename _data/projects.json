@@ -3,7 +3,7 @@
     "id": "agenticAI",
     "title": "AI Agents",
     "question": "Can Conversation Change Work?",
-    "description": "After auditing time-consuming employee tasks, I explored whether conversational AI agents with distinct personalities could improve productivity while remaining trustworthy and approachable. I designed Christi and Danielle, AI assistants with access to relevant files, accounts, and information that search for answers and draft responses.",
+    "description": "After auditing time-consuming employee tasks, I explored whether AI agents with distinct personalities could improve productivity while remaining trustworthy and approachable. I designed Christi and Danielle, AI assistants with access to relevant files and accounts, who search for answers and draft responses.",
     "thumbnail": { "src": "images/agents.jpeg", "loading": "eager" },
     "modalImages": [
       { "src": "images/modal/agents-1.jpeg", "loading": "eager", "alt": "AI Agents" },
@@ -11,7 +11,7 @@
       { "src": "images/modal/agents-3.jpeg", "loading": "lazy", "alt": "AI Agents" },
       { "src": "images/modal/agents-4.jpeg", "loading": "lazy", "alt": "AI Agents" }
     ],
-    "videoId": "r6RmhM12AxI?si=2Gm0gXM13CIfXgDS"
+    "videoId": "Zol64zixv2c?si=z9r9eLebNOp23sBN"
   },
   {
     "id": "deElf",
